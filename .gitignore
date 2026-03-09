@@ -1,0 +1,32 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# IDE 配置
+.idea/
+.vscode/
+
+# 不上传的文件夹
+document/
+data/FinEntCN/
+data/my_financial_bert/
+
+# 大型数据或模型文件 (GitHub 限制 100MB)
+*.bin
+*.pt
+*.h5
+*.model
+
+# 临时输出
+*.log
